@@ -1,0 +1,38 @@
+
+# Project planning docs (local only)
+CLAUDE.md
+architecture.md
+PRD.md
+PROJECT_REQUIREMENTS.md
+PHASES.md
+
+# Windows zone identifier files
+*Zone.Identifier
+*:Zone.Identifier
+
+# Frontend build output
+dist/
+build/
+
+# Node
+node_modules/
+
+# Rust/Cargo
+src-tauri/target/
+
+# Android generated build outputs (keep project, exclude outputs)
+src-tauri/gen/android/app/build/
+src-tauri/gen/android/.gradle/
+src-tauri/gen/android/build/
+src-tauri/gen/android/local.properties
+
+# iOS generated build outputs
+src-tauri/gen/apple/build/
+
+# Tauri generated
+src-tauri/gen/android/app/src/main/jniLibs/
+
+# Editor
+.vscode/settings.json
+.idea/
+*.iml
