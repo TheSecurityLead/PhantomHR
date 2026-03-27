@@ -1,0 +1,10 @@
+"$schema" = "schemas/schema.json"
+
+[default]
+description = "Default permissions for the BLE peripheral plugin — allows all four commands."
+permissions = [
+  "allow-start-advertising",
+  "allow-stop-advertising",
+  "allow-update-config",
+  "allow-get-state",
+]

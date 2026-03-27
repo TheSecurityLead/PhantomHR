@@ -1,0 +1,6 @@
+[submodule "reference/react-native-ble-plx"]
+	path = reference/react-native-ble-plx
+	url = https://github.com/dotintent/react-native-ble-plx.git
+[submodule "reference/react-native-health-connect"]
+	path = reference/react-native-health-connect
+	url = https://github.com/matinzd/react-native-health-connect.git
